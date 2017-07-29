@@ -1,3 +1,13 @@
+/*
+
+  **Main.swift**
+  AliceKit Demo
+  Version 0.1.0
+  (C) 2017 | Artemis Project Team
+  Licensed under GNU GPL v3
+
+*/
+
 #if os(Linux)
 import Glibc
 #else
@@ -6,7 +16,7 @@ import Darwin
 import Qlift
 
 
-class MainWindow: UI_MainWindow {
+class MainWindow: MainWindowController {
     override init() {
         super.init()
     }

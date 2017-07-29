@@ -1,6 +1,16 @@
+/*
+
+  **MainWindowController.swift**
+  The Swift Machine
+  Version 0.1.0
+  (C) 2017 | Artemis Project Team
+  Licensed under GNU GPL v3
+
+*/
+
 import Qlift
 
-class UI_MainWindow: QMainWindow {
+class MainWindowController: QMainWindow {
     var centralwidget: QWidget!
     var verticalLayout: QVBoxLayout!
     var horizontalLayout: QHBoxLayout!
